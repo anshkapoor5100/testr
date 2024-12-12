@@ -94,3 +94,15 @@ button{
     margin-left: auto;
     background-color: red;
 }
+@media (max-width: 768px) {
+    .intro{
+        flex-direction: column;
+    }
+    img{
+        width: 80%;
+        height: 50%;
+    }
+    .letter{
+        width: 100%;
+    }
+}
